@@ -1,0 +1,12 @@
+client
+usage: client [-h hostname] [-l message_length] [-c packet_count] [-p port] [-log file_name] [-silent]
+
+Options:
+	-h:       Specify target host name (or ip address). If -h flag not set, use default host address 0.0.0.0.
+	-l:       Specify packet message length. If -l flag not set, use default message length 5 bytes.
+	-c:       Send n packets. If -c flag not set, the program sends 5 packets by default.
+	-p:       Specify target port. If -p flag not set, use default port 5000.
+	-log:     Write result to file. If -log flag not set, the program does not write result to file.
+	-silent:  Toggle silent mode. In silent mode, the program only prints the final result. If -silent flag not set, silent mode is off.
+
+
